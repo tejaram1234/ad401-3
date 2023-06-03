@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#slider-img{
+    height: 100%;
+    width: 100%;
+}
+.play{
+    position: absolute;
+    top: 40vh;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+#left{
+    transform: scaleX(-1);
+}
+div{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+}
